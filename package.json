@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mcferrod/malfario.git"
+    "url": "git+https://github.com/mcferrod19/malfario.git"
   },
   "author": "LaLocomotora",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mcferrod/malfario/issues"
+    "url": "https://github.com/mcferrod19/malfario/issues"
   },
-  "homepage": "https://github.com/mcferrod/malfario#readme",
+  "homepage": "https://github.com/mcferrod19/malfario#readme",
   "devDependencies": {
     "browser-sync": "^2.18.13",
     "gulp": "^3.9.1",
