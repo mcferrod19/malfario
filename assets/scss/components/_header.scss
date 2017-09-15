@@ -5,13 +5,12 @@
 }
 
 .header-video {
-  height: 100vh;
 
   h1 {
     font-family: 'descoloridoregular';
-    font-size: 6.25rem;
+    font-size: 3.5rem;
     position: absolute;
-    margin-left: 3.688rem;
+    margin-left: 3rem;
     color: $purple;
   }
 }
@@ -20,6 +19,26 @@
   width: 100%;
 }
 
-@media #{large-up} {
+.intro-description{
+  background-color: $pink;
+  img {
+    width: 30%;
+    top:30%;
+  }
+}
+@media #{$medium-up} {
+  .header-video {
 
+    h1 {
+      font-size: 6.25rem;
+      position: absolute;
+      margin-left: 3.688rem;
+    }
+  }
+
+  .intro-description{
+    img {
+      top: 60%;
+    }
+  }
 }

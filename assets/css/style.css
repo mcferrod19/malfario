@@ -279,20 +279,25 @@ template {
 	background-color: black;
 }
 
-.header-video {
-	height: 100vh;
-}
-
 .header-video h1 {
 	font-family: 'descoloridoregular';
-	font-size: 6.25rem;
+	font-size: 3.5rem;
 	position: absolute;
-	margin-left: 3.688rem;
+	margin-left: 3rem;
 	color: #43344B;
 }
 
 .mi-video {
 	width: 100%;
+}
+
+.intro-description {
+	background-color: #DE6A87;
+}
+
+.intro-description img {
+	width: 30%;
+	top: 30%;
 }
 
 body {
@@ -327,5 +332,19 @@ th {
 	margin-bottom: 1rem;
 	font-size: 1.1rem;
 	line-height: 1.7rem;
+}
+
+@media screen and (min-width: 450px) {
+
+.header-video h1 {
+	font-size: 6.25rem;
+	position: absolute;
+	margin-left: 3.688rem;
+}
+
+.intro-description img {
+	top: 60%;
+}
+
 }
 
