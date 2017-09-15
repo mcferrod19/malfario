@@ -1,21 +1,21 @@
 {
   "name": "lcmotora",
   "version": "1.0.0",
-  "description": "Landing La Locomotora",
+  "description": "Landing Malfario",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/themesquad/lcmotora.git"
+    "url": "git+https://github.com/mcferrod/malfario.git"
   },
   "author": "LaLocomotora",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/themesquad/lcmotora/issues"
+    "url": "https://github.com/mcferrod/malfario/issues"
   },
-  "homepage": "https://github.com/themesquad/lcmotora#readme",
+  "homepage": "https://github.com/mcferrod/malfario#readme",
   "devDependencies": {
     "browser-sync": "^2.18.13",
     "gulp": "^3.9.1",

@@ -64,6 +64,7 @@ gulp.task( 'html', function() {
 gulp.task('build', function (callback) {
     return runSequence(
         'html',
+        "css",
         callback
     );
 });
