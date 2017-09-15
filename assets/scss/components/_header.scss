@@ -1,0 +1,21 @@
+.griddle {
+  background-image: url('../../../images/cebra.png');
+  height: 10vh;
+  background-color: black;
+}
+
+.header-video {
+  height: 100vh;
+
+  h1 {
+    font-family: 'descoloridoregular';
+    font-size: 6.25rem;
+    position: absolute;
+    margin-left: 3.688rem;
+    color: $purple;
+  }
+}
+
+.mi-video {
+  width: 100%;
+}

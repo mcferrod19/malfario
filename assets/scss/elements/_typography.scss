@@ -1,0 +1,34 @@
+body {
+	font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-top: 1.4rem;
+	margin-bottom: 1rem;
+	text-rendering: optimizeLegibility;
+	font-weight: 300;
+}
+
+h3,
+h4,
+h5,
+h6 {
+	font-size: 1.17em;
+}
+
+dd,
+dt,
+p,
+td,
+th {
+	margin-top: 0;
+	margin-bottom: 1rem;
+	font-size: 1.1rem;
+	line-height: 1.7rem;
+}
+@media #{$large-up} {}

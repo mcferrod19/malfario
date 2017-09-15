@@ -1,0 +1,20 @@
+$breakpoints: (
+	small: 0,
+	medium: 450px,
+	large: 960px,
+
+);
+
+// MEDIAS QUERIES
+
+$screen: "screen";
+
+$small-up:   "#{$screen}";
+$medium-up: "#{$screen} and (min-width: #{map-get($breakpoints, 'medium')})";
+$large-up:   "#{$screen} and (min-width: #{map-get($breakpoints, 'large')})";
+
+//COLORS
+$purple: #43344B;
+
+
+//TYPOGRAPHY
