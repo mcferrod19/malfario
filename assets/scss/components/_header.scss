@@ -5,7 +5,6 @@
 }
 
 .header-video {
-
   h1 {
     font-family: 'descoloridoregular';
     font-size: 3.5rem;
@@ -19,16 +18,32 @@
   width: 100%;
 }
 
-.intro-description{
-  background-color: $pink;
+.intro-description {
+  height: 20vh;
+  background-color: $purple;
+
   img {
+    position: absolute;
     width: 30%;
-    top:30%;
+    top: 40%;
+  }
+
+  p {
+    font-family: 'helvetica';
+    padding-top: 2rem;
+    font-weight: 500;
+    text-align: center;
+    margin: 4rem;
+    color: $pink;
+    font-size: 0.8rem;
+
+    &:hover {
+      font-weight: 900;
+    }
   }
 }
 @media #{$medium-up} {
   .header-video {
-
     h1 {
       font-size: 6.25rem;
       position: absolute;
@@ -36,9 +51,16 @@
     }
   }
 
-  .intro-description{
-    img {
-      top: 60%;
+  .intro-description {
+    p {
+      font-size: 1rem;
+    }
+  }
+}
+@media #{$medium-up} {
+  .intro-description {
+    p {
+      font-size: 1.2rem;
     }
   }
 }

@@ -1,0 +1,56 @@
+.container-more-info {
+  height: 20vh;
+  background-color: $yellow;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  p {
+    font-family: 'descoloridoregular';
+    font-size: 3rem;
+    color: $purple;
+    padding-top: 0.5rem;
+  }
+
+  .basic-font {
+    font-family: 'Helvetica';
+    font-size: 1rem;
+    margin: 0 auto;
+    color:white;
+    text-align: center;
+    font-weight: 500;
+    text-shadow: 0 0 10px $pink, 0 0 15px $pink, 0 0 30px $pink, 0 0 30px $pink, 0 0 30px $pink, 0 0 40px $pink, 0 0 50px $pink, 0 0 60px $pink, 0 0 70px $pink, 0 0 80px $pink;
+
+    &:hover {
+      font-size: 2.5rem;
+      padding-top: 0.9rem;
+    }
+  }
+}
+
+.font-align {
+  display: flex;
+  flex-direction: row;
+}
+
+@media #{$medium-up} {
+  .container-more-info {
+    height: 30vh;
+
+    p {
+      font-size: 4rem;
+      padding-top: 1.5rem;
+    }
+
+    .basic-font {
+      font-size: 2rem;
+      color:white;
+      &:hover {
+        font-size: 1.5rem;
+        padding-top: 1.9rem;
+      }
+    }
+  }
+
+}

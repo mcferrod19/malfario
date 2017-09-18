@@ -24,6 +24,10 @@
 	background-color: #c3db83;
 }
 
+body {
+	overflow-x: hidden;
+}
+
 /**
  * normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css
  * -----------------------------------------------------------------------------
@@ -273,6 +277,56 @@ template {
 	display: none;
 }
 
+.container-more-info {
+	height: 20vh;
+	background-color: #FFF8A7;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+
+.container-more-info p {
+	font-family: 'descoloridoregular';
+	font-size: 3rem;
+	color: #45354D;
+	padding-top: 0.5rem;
+}
+
+.container-more-info .basic-font {
+	font-family: 'Helvetica';
+	font-size: 1rem;
+	margin: 0 auto;
+	color: white;
+	text-align: center;
+	font-weight: 500;
+	text-shadow: 0 0 10px #DE6A87, 0 0 15px #DE6A87, 0 0 30px #DE6A87, 0 0 30px #DE6A87, 0 0 30px #DE6A87, 0 0 40px #DE6A87, 0 0 50px #DE6A87, 0 0 60px #DE6A87, 0 0 70px #DE6A87, 0 0 80px #DE6A87;
+}
+
+.container-more-info .basic-font:hover {
+	font-size: 2.5rem;
+	padding-top: 0.9rem;
+}
+
+.font-align {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+
 .griddle {
 	background-image: url("../../../images/cebra.png");
 	height: 10vh;
@@ -284,7 +338,7 @@ template {
 	font-size: 3.5rem;
 	position: absolute;
 	margin-left: 3rem;
-	color: #43344B;
+	color: #45354D;
 }
 
 .mi-video {
@@ -292,12 +346,28 @@ template {
 }
 
 .intro-description {
-	background-color: #DE6A87;
+	height: 20vh;
+	background-color: #45354D;
 }
 
 .intro-description img {
+	position: absolute;
 	width: 30%;
-	top: 30%;
+	top: 40%;
+}
+
+.intro-description p {
+	font-family: 'helvetica';
+	padding-top: 2rem;
+	font-weight: 500;
+	text-align: center;
+	margin: 4rem;
+	color: #DE6A87;
+	font-size: 0.8rem;
+}
+
+.intro-description p:hover {
+	font-weight: 900;
 }
 
 body {
@@ -336,14 +406,37 @@ th {
 
 @media screen and (min-width: 450px) {
 
+.container-more-info {
+	height: 30vh;
+}
+
+.container-more-info p {
+	font-size: 4rem;
+	padding-top: 1.5rem;
+}
+
+.container-more-info .basic-font {
+	font-size: 2rem;
+	color: white;
+}
+
+.container-more-info .basic-font:hover {
+	font-size: 1.5rem;
+	padding-top: 1.9rem;
+}
+
 .header-video h1 {
 	font-size: 6.25rem;
 	position: absolute;
 	margin-left: 3.688rem;
 }
 
-.intro-description img {
-	top: 60%;
+.intro-description p {
+	font-size: 1rem;
+}
+
+.intro-description p {
+	font-size: 1.2rem;
 }
 
 }
