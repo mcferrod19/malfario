@@ -437,6 +437,47 @@ template {
 	font-weight: 900;
 }
 
+.container-contact {
+	background-color: #FFF8A7;
+	height: 30vh;
+	padding-top: 2rem;
+	padding-left: 2rem;
+}
+
+.container-contact p {
+	font-family: 'Descoloridoregular';
+	font-size: 2rem;
+	color: #45354D;
+}
+
+.container-contact .contact-us {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	width: 100%;
+	-webkit-box-pack: start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
+}
+
+.container-contact .contact-us img {
+	width: 4rem;
+	margin-right: 50%;
+}
+
+.pulse {
+	-webkit-animation-duration: 1s;
+	        animation-duration: 1s;
+	-webkit-animation-name: pulse;
+	        animation-name: pulse;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+}
+
 body {
 	font-weight: 300;
 }
@@ -504,6 +545,44 @@ th {
 
 .intro-description p {
 	font-size: 1.2rem;
+}
+
+}
+
+@-webkit-keyframes pulse {
+
+from {
+	-webkit-transform: scale3d(1, 1, 1);
+	        transform: scale3d(1, 1, 1);
+}
+
+50% {
+	-webkit-transform: scale3d(1.05, 1.05, 1.05);
+	        transform: scale3d(1.05, 1.05, 1.05);
+}
+
+to {
+	-webkit-transform: scale3d(1, 1, 1);
+	        transform: scale3d(1, 1, 1);
+}
+
+}
+
+@keyframes pulse {
+
+from {
+	-webkit-transform: scale3d(1, 1, 1);
+	        transform: scale3d(1, 1, 1);
+}
+
+50% {
+	-webkit-transform: scale3d(1.05, 1.05, 1.05);
+	        transform: scale3d(1.05, 1.05, 1.05);
+}
+
+to {
+	-webkit-transform: scale3d(1, 1, 1);
+	        transform: scale3d(1, 1, 1);
 }
 
 }
