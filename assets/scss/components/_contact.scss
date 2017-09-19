@@ -15,30 +15,31 @@
 .container-contact {
   background-color: $yellow;
   height: 30vh;
-      padding-top: 2rem;
-      padding-left: 2rem;
-
-
+  padding-top: 2rem;
+  padding-left: 2rem;
 
   p {
     font-family: 'Descoloridoregular';
     font-size: 2rem;
     color: $purple;
   }
+
   .contact-us {
     display: flex;
     flex-direction: row;
     width: 100%;
     justify-content: flex-start;
+
     img {
       width: 4rem;
       margin-right: 50%;
     }
-
   }
 }
+
 .pulse {
   animation-duration: 1s;
   animation-name: pulse;
   animation-iteration-count: infinite;
+  padding-left: 10%;
 }

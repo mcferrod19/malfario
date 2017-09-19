@@ -476,6 +476,7 @@ template {
 	        animation-name: pulse;
 	-webkit-animation-iteration-count: infinite;
 	        animation-iteration-count: infinite;
+	padding-left: 10%;
 }
 
 body {
