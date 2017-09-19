@@ -24,6 +24,10 @@
 	background-color: #c3db83;
 }
 
+.size-images-slider {
+	width: 10rem;
+}
+
 body {
 	overflow-x: hidden;
 }
