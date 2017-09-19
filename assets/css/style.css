@@ -340,6 +340,15 @@ template {
 	width: 30vw;
 }
 
+.profile-image:hover {
+	-webkit-animation-name: pulse;
+	        animation-name: pulse;
+	-webkit-animation-duration: 1s;
+	        animation-duration: 1s;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+}
+
 .social-logo {
 	width: 2rem;
 }
