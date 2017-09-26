@@ -20,14 +20,6 @@
  * - Responsive
  */
 
-.single-item {
-	background-color: #c3db83;
-}
-
-.size-images-slider {
-	width: 10rem;
-}
-
 body {
 	overflow-x: hidden;
 }
@@ -448,6 +440,11 @@ template {
 
 .intro-description p:hover {
 	font-weight: 900;
+}
+
+.size-images-slider img {
+	max-height: 100vh;
+	width: auto;
 }
 
 .container-contact {
