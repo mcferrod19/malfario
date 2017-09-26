@@ -40,9 +40,10 @@
   &:hover {
     animation-name: pulse;
     animation-duration: 1s;
-      animation-iteration-count: infinite;
-  }
-
+    animation-iteration-count: infinite;
+    -webkit-filter: invert(200%) hue-rotate(45deg);
+filter: invert(200%) hue-rotate(45deg);
+}
 }
 .social-logo {
   width: 2rem;

@@ -343,6 +343,8 @@ template {
 	        animation-duration: 1s;
 	-webkit-animation-iteration-count: infinite;
 	        animation-iteration-count: infinite;
+	-webkit-filter: invert(200%) hue-rotate(45deg);
+	filter: invert(200%) hue-rotate(45deg);
 }
 
 .social-logo {
