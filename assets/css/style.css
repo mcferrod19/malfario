@@ -291,11 +291,11 @@ template {
 .container-project p {
 	color: #DE6A87;
 	font-size: 2.5rem;
-	font-family: 'Descoloridoregular';
+	font-family: 'dk_cinnabar_brushregular';
 }
 
 .text-profile {
-	font-family: 'Helvetica';
+	font-family: 'Bubbler One';
 	font-size: 2rem;
 	margin-top: 1rem;
 	text-align: center;
@@ -370,14 +370,14 @@ template {
 }
 
 .container-more-info p {
-	font-family: 'descoloridoregular';
+	font-family: 'dk_cinnabar_brushregular';
 	font-size: 3rem;
 	color: #45354D;
 	padding-top: 0.5rem;
 }
 
 .container-more-info .basic-font {
-	font-family: 'Helvetica';
+	font-family: 'Bubbler One';
 	font-size: 1rem;
 	margin: 0 auto;
 	color: white;
@@ -408,7 +408,7 @@ template {
 }
 
 .header-video h1 {
-	font-family: 'descoloridoregular';
+	font-family: 'dk_cinnabar_brushregular';
 	font-size: 3.5rem;
 	position: absolute;
 	margin-left: 3rem;
@@ -431,7 +431,7 @@ template {
 }
 
 .intro-description p {
-	font-family: 'helvetica';
+	font-family: 'Bubbler One';
 	padding-top: 2rem;
 	font-weight: 500;
 	text-align: center;
@@ -457,7 +457,7 @@ template {
 }
 
 .container-contact p {
-	font-family: 'Descoloridoregular';
+	font-family: 'dk_cinnabar_brushregular';
 	font-size: 2rem;
 	color: #45354D;
 }
@@ -512,6 +512,10 @@ h4,
 h5,
 h6 {
 	font-size: 1.17em;
+}
+
+p {
+	font-family: 'Bubbler One';
 }
 
 dd,
