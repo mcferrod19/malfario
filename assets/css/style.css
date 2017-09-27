@@ -290,7 +290,7 @@ template {
 
 .container-project p {
 	color: #DE6A87;
-	font-size: 2.5rem;
+	font-size: 1.5rem;
 	font-family: 'dk_cinnabar_brushregular';
 }
 
@@ -371,14 +371,14 @@ template {
 
 .container-more-info p {
 	font-family: 'dk_cinnabar_brushregular';
-	font-size: 3rem;
+	font-size: 2rem;
 	color: #45354D;
 	padding-top: 0.5rem;
 }
 
 .container-more-info .basic-font {
 	font-family: 'Bubbler One';
-	font-size: 1rem;
+	font-size: 1.5rem;
 	margin: 0 auto;
 	color: white;
 	text-align: center;
@@ -387,7 +387,7 @@ template {
 }
 
 .container-more-info .basic-font:hover {
-	font-size: 2.5rem;
+	font-size: 2rem;
 	padding-top: 0.9rem;
 }
 
@@ -409,9 +409,8 @@ template {
 
 .header-video h1 {
 	font-family: 'dk_cinnabar_brushregular';
-	font-size: 3.5rem;
-	position: absolute;
-	margin-left: 3rem;
+	font-size: 3rem;
+	margin: 1rem;
 	color: #45354D;
 }
 
@@ -420,28 +419,36 @@ template {
 }
 
 .intro-description {
-	height: 20vh;
 	background-color: #45354D;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 }
 
 .intro-description img {
 	position: absolute;
-	width: 30%;
-	top: 40%;
+	width: 80%;
+	top: 20%;
 }
 
 .intro-description p {
+	width: 80%;
+	height: 100%;
 	font-family: 'Bubbler One';
-	padding-top: 2rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 	font-weight: 500;
 	text-align: center;
-	margin: 4rem;
 	color: #DE6A87;
-	font-size: 0.8rem;
+	font-size: 1.5rem;
+	margin: 0;
 }
 
 .intro-description p:hover {
-	font-weight: 900;
+	color: #FFF8A7;
 }
 
 .size-images-slider img {
@@ -541,27 +548,38 @@ th {
 }
 
 .container-more-info .basic-font {
-	font-size: 2rem;
+	font-size: 3rem;
 	color: white;
 }
 
 .container-more-info .basic-font:hover {
-	font-size: 1.5rem;
+	font-size: 3.5rem;
 	padding-top: 1.9rem;
 }
 
 .header-video h1 {
-	font-size: 6.25rem;
-	position: absolute;
+	font-size: 8rem;
 	margin-left: 3.688rem;
 }
 
 .intro-description p {
-	font-size: 1rem;
+	font-size: 2rem;
+	line-height: 2rem;
+}
+
+}
+
+@media screen and (min-width: 960px) {
+
+.header-video h1 {
+	font-size: 11rem;
+	margin-left: 3.688rem;
 }
 
 .intro-description p {
-	font-size: 1.2rem;
+	width: 60%;
+	font-size: 2.5rem;
+	line-height: 3rem;
 }
 
 }

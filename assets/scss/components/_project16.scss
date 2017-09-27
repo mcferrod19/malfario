@@ -8,43 +8,49 @@
 
   p {
     color: $pink;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-family: 'dk_cinnabar_brushregular';
   }
 }
+
 .text-profile {
   font-family: 'Bubbler One';
   font-size: 2rem;
   margin-top: 1rem;
   text-align: center;
   color: $purple;
-
 }
+
 .container-artists {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .container-profile {
   padding: 1rem;
   display: flex;
   align-items: center;
   flex-direction: column;
+
   p {
     margin-top: 1rem;
     color: $purple;
   }
 }
+
 .profile-image {
   width: 30vw;
+
   &:hover {
     animation-name: pulse;
     animation-duration: 1s;
     animation-iteration-count: infinite;
     -webkit-filter: invert(200%) hue-rotate(45deg);
-filter: invert(200%) hue-rotate(45deg);
+    filter: invert(200%) hue-rotate(45deg);
+  }
 }
-}
+
 .social-logo {
   width: 2rem;
 }
