@@ -28,7 +28,9 @@ html {
 //
 
 body {
-	margin: 0;
+	overflow-x: hidden;
+	max-width: 1440px;
+	margin: 0 auto;
 }
 
 //
