@@ -1,0 +1,21 @@
+@keyframes flash {
+  from, 50%, to {
+    opacity: 1;
+  }
+
+  25%, 75% {
+    opacity: 0;
+  }
+}
+
+.mask {
+  position: relative;
+  width: 30vh;
+  top:0;
+  animation-duration: 7s;
+  animation-name: flash;
+  animation-iteration-count: infinite;
+  img {
+    width: 100%;
+  }
+}

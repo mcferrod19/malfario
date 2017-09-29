@@ -13,6 +13,15 @@
   }
 }
 
+.into-header {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  img {
+    width: 20px;
+  }
+}
+
 .my-video {
   width: 100%;
   height: auto;
