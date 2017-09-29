@@ -17,7 +17,7 @@
 .text-profile {
   font-family: 'Bubbler One';
   font-size: 2rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
   text-align: center;
   color: $purple;
 }
@@ -51,6 +51,10 @@
     filter: invert(200%) hue-rotate(45deg);
   }
 }
+.container-social-logo {
+  a{
+    text-decoration: none;
+}}
 
 .social-logo {
   width: 2rem;
