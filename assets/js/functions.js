@@ -16,10 +16,5 @@
     });
   });
 
-  $(function() {
-    $(document).ready(function(){
-  $('html,body').animate({scrollTop:$(location.hash).offset().‌​top}, 600);
-});
-});
 
 })(jQuery);
