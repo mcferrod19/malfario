@@ -13,39 +13,70 @@
 }
 
 .container-contact {
+  display: flex;
+  flex-direction: column;
   background-color: $yellow;
-  height: 30vh;
   padding-top: 2rem;
   padding-left: 2rem;
+  padding-bottom: 2rem;
 
   p {
+    margin: 0;
     font-family: 'dk_cinnabar_brushregular';
-    font-size: 2rem;
+    font-size: 1rem;
     color: $purple;
   }
 
   h2{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     font-family: 'Bubbler One';
-    font-size: 2rem;
+    font-size: 1rem;
     color: $purple;
   }
+}
 
-  .contact-us {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: flex-start;
-
-    img {
-      width: 4rem;
-      margin-right: 50%;
-    }
-  }
+.contact-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .pulse {
   animation-duration: 1s;
   animation-name: pulse;
   animation-iteration-count: infinite;
-  padding-left: 10%;
+  margin-top: 1rem;
+  justify-content: center;
+  img {
+    width: 4rem;
+  }
+}
+
+.bottons-socials-links{
+  display: flex;
+  flex-direction: row;
+}
+
+@media #{$medium-up} {
+  .container-contact {
+    justify-content: center;
+    flex-direction: row;
+  }
+  .contact-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .pulse {
+    animation-duration: 1s;
+    animation-name: pulse;
+    animation-iteration-count: infinite;
+    margin-left: 2rem;
+    justify-content: center;
+    img {
+      width: 4rem;
+    }
+  }
 }
