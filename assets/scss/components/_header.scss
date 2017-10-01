@@ -108,7 +108,7 @@
     padding: 0;
     display: flex;
     justify-content: center;
-    
+
     a{
       font-weight: bold;
       font-family: 'Bubbler One';
@@ -119,6 +119,7 @@
     }
 
     li{
+      color: $purple;
       list-style: none;
       padding: 1rem;
     }

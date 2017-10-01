@@ -349,6 +349,28 @@
     <script type="text/javascript" src="slick/slick.min.js"></script>
     <script type="text/javascript" src="assets/js/functions.js"></script>
 
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+    <script>
+        window.addEventListener("load", function(){
+        window.cookieconsent.initialise({
+          "palette": {
+            "popup": {
+              "background": "#FA6CAE",
+              "text": "#faf5a2"
+            },
+            "button": {
+              "background": "#000000",
+              "text": "#faf5a2"
+            }
+          },
+          "theme": "classic",
+          "content": {
+            "message": "CUIDADO UN GATO NEGRO ACABA DE CRUZAR",
+            "dismiss": "QUITA!!",
+          }
+        })});
+    </script>
 </body>
 
 </html>
